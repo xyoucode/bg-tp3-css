@@ -1,1 +1,45 @@
+/* Etape 3 : Layout 3 */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: red;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+.main-nav,
+.showcase {
+    background-color: #CCCCCC;
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+}
+
+/* Le footer s'adapte maintenant a ses deux sections */
+footer {
+    background-color: #CCCCCC;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+/* Les sections : fond vert clair, 100% de large, 100px de haut, une bordure */
+.home-cards,
+.ruban,
+.follow,
+.links,
+.sub-footer,
+#bigData-intro {
+    background-color: #d3eaac;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
